@@ -1,0 +1,29 @@
+Function=xamarin_timezone_get_data
+	/Users/ethana56/Hack4Impact/FriendshipBingo/FriendshipBingo/FriendshipBingo.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.1.4/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/ethana56/Hack4Impact/FriendshipBingo/FriendshipBingo/FriendshipBingo.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.1.4/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/ethana56/Hack4Impact/FriendshipBingo/FriendshipBingo/FriendshipBingo.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.1.4/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/ethana56/Hack4Impact/FriendshipBingo/FriendshipBingo/FriendshipBingo.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.1.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/ethana56/Hack4Impact/FriendshipBingo/FriendshipBingo/FriendshipBingo.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.1.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/ethana56/Hack4Impact/FriendshipBingo/FriendshipBingo/FriendshipBingo.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.1.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/ethana56/Hack4Impact/FriendshipBingo/FriendshipBingo/FriendshipBingo.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.1.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/ethana56/Hack4Impact/FriendshipBingo/FriendshipBingo/FriendshipBingo.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.1.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_start_wwan
+	/Users/ethana56/Hack4Impact/FriendshipBingo/FriendshipBingo/FriendshipBingo.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.1.4/mtouch-cache/1-Link/System.dll
+Function=CreateZStream
+	/Users/ethana56/Hack4Impact/FriendshipBingo/FriendshipBingo/FriendshipBingo.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.1.4/mtouch-cache/1-Link/System.dll
+Function=CloseZStream
+	/Users/ethana56/Hack4Impact/FriendshipBingo/FriendshipBingo/FriendshipBingo.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.1.4/mtouch-cache/1-Link/System.dll
+Function=Flush
+	/Users/ethana56/Hack4Impact/FriendshipBingo/FriendshipBingo/FriendshipBingo.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.1.4/mtouch-cache/1-Link/System.dll
+Function=ReadZStream
+	/Users/ethana56/Hack4Impact/FriendshipBingo/FriendshipBingo/FriendshipBingo.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.1.4/mtouch-cache/1-Link/System.dll
+Function=WriteZStream
+	/Users/ethana56/Hack4Impact/FriendshipBingo/FriendshipBingo/FriendshipBingo.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.1.4/mtouch-cache/1-Link/System.dll
+Function=mono_pmip

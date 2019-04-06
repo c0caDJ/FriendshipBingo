@@ -26,6 +26,17 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Websockets.Pcl/1.1.9": {
+        "type": "package",
+        "compile": {
+          "lib/net45/WebSockets.PCL.dll": {},
+          "lib/net45/Websockets.Net.dll": {}
+        },
+        "runtime": {
+          "lib/net45/WebSockets.PCL.dll": {},
+          "lib/net45/Websockets.Net.dll": {}
+        }
+      },
       "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "compile": {
@@ -47,11 +58,10 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "a/iSwnRZb+LHFk49hQOyThh/ZNC3vsbZsF65XwQIb863qF6msmhdQtxGXFL28Ob2NsCz/drEj28BJd/YPpLRBg==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -186,6 +196,27 @@
         "lib/netstandard1.0/_._",
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
+      ]
+    },
+    "Websockets.Pcl/1.1.9": {
+      "sha512": "XITV2o6NzPaXorsnmTaf0sxaAqP3MU3w3JXoiwsFM886rFyddw7MfKZ3wj01Ldbo/Ilq+O2CG8oaZghsIHWZWw==",
+      "type": "package",
+      "path": "websockets.pcl/1.1.9",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid/WebSockets.PCL.dll",
+        "lib/MonoAndroid/Websockets.Droid.dll",
+        "lib/net45/WebSockets.PCL.dll",
+        "lib/net45/Websockets.Net.dll",
+        "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10/WebSockets.PCL.dll",
+        "lib/uap10.0/WebSockets.PCL.dll",
+        "lib/uap10.0/Websockets.Universal.dll",
+        "lib/wp8/WebSockets.PCL.dll",
+        "lib/wp8/Websockets.WP8.dll",
+        "lib/xamarinios10/WebSockets.PCL.dll",
+        "lib/xamarinios10/Websockets.Ios.dll",
+        "websockets.pcl.1.1.9.nupkg.sha512",
+        "websockets.pcl.nuspec"
       ]
     },
     "Xamarin.Forms/3.4.0.1008975": {
@@ -337,32 +368,34 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
+      "Websockets.Pcl >= 1.1.9",
       "Xamarin.Forms >= 3.4.0.1008975"
     ]
   },
   "packageFolders": {
-    "/Users/ericnewcomer/.nuget/packages/": {},
+    "/Users/ethana56/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ericnewcomer/Desktop/FriendshipBingo/FriendshipBingo/FriendshipBingo/FriendshipBingo.csproj",
+      "projectUniqueName": "/Users/ethana56/Hack4Impact/FriendshipBingo/FriendshipBingo/FriendshipBingo/FriendshipBingo.csproj",
       "projectName": "FriendshipBingo",
-      "projectPath": "/Users/ericnewcomer/Desktop/FriendshipBingo/FriendshipBingo/FriendshipBingo/FriendshipBingo.csproj",
-      "packagesPath": "/Users/ericnewcomer/.nuget/packages/",
-      "outputPath": "/Users/ericnewcomer/Desktop/FriendshipBingo/FriendshipBingo/FriendshipBingo/obj/",
+      "projectPath": "/Users/ethana56/Hack4Impact/FriendshipBingo/FriendshipBingo/FriendshipBingo/FriendshipBingo.csproj",
+      "packagesPath": "/Users/ethana56/.nuget/packages/",
+      "outputPath": "/Users/ethana56/Hack4Impact/FriendshipBingo/FriendshipBingo/FriendshipBingo/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/ericnewcomer/.config/NuGet/NuGet.Config"
+        "/Users/ethana56/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "/Users/ethana56/Websockets.PCL": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -379,15 +412,19 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "3.4.0.1008975"
+          },
+          "Websockets.Pcl": {
+            "target": "Package",
+            "version": "1.1.9"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.3, )",
+            "version": "2.0.3",
             "autoReferenced": true
-          },
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "[3.4.0.1008975, )"
           }
         },
         "imports": [
@@ -397,5 +434,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Websockets.Pcl 1.1.9' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Websockets.Pcl",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

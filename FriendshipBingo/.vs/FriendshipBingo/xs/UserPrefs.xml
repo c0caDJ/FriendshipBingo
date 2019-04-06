@@ -1,39 +1,27 @@
 ﻿<Properties StartupConfiguration="{F1DB678C-CB40-4732-B1AA-C4537943C24C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="FriendshipBingo/Board.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FriendshipBingo.iOS/Info.plist">
     <Files>
-      <File FileName="FriendshipBingo/GameMakerPage.xaml" Line="29" Column="1" />
-      <File FileName="FriendshipBingo/Board.xaml" Line="50" Column="15" />
-      <File FileName="FriendshipBingo/GameMakerPage.xaml.cs" Line="4" Column="22" />
-      <File FileName="FriendshipBingo/Board.xaml.cs" Line="15" Column="34" />
-      <File FileName="FriendshipBingo/QuestionPage.xaml" Line="11" Column="47" />
-      <File FileName="FriendshipBingo/QuestionPage.xaml.cs" Line="10" Column="30" />
-      <File FileName="FriendshipBingo/Models/Game.cs" Line="1" Column="1" />
+      <File FileName="FriendshipBingo.iOS/Main.cs" Line="21" Column="1" />
+      <File FileName="FriendshipBingo/Models/Game.cs" Line="11" Column="65" />
+      <File FileName="FriendshipBingo/App.xaml" Line="5" Column="15" />
+      <File FileName="FriendshipBingo/App.xaml.cs" Line="13" Column="1" />
+      <File FileName="FriendshipBingo/Services/WebsocketRequestResponse.cs" Line="36" Column="15" />
+      <File FileName="FriendshipBingo/Board.xaml.cs" Line="1" Column="1" />
+      <File FileName="FriendshipBingo/MainPage.xaml.cs" Line="24" Column="80" />
+      <File FileName="FriendshipBingo/GameMakerPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="FriendshipBingo/Services/Message.cs" Line="6" Column="22" />
+      <File FileName="FriendshipBingo/ServerError.cs" Line="1" Column="1" />
+      <File FileName="FriendshipBingo/Services/ServerError.cs" Line="5" Column="15" />
+      <File FileName="../../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/11.14.0.14/lib/msbuild/iOS/Xamarin.iOS.Common.targets" Line="646" Column="3" />
+      <File FileName="FriendshipBingo.iOS/Info.plist" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="FriendshipBingo" expanded="True">
-            <Node name="FriendshipBingo" expanded="True">
-              <Node name="Models" expanded="True" />
-              <Node name="Board.xaml" expanded="True">
-                <Node name="Board.xaml.cs" selected="True" />
-              </Node>
-              <Node name="GameMakerPage.xaml" expanded="True" />
-              <Node name="QuestionPage.xaml" expanded="True" />
-            </Node>
-            <Node name="FriendshipBingo.Android" expanded="True" />
-            <Node name="FriendshipBingo.iOS" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.FriendshipBingo.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.FriendshipBingo.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.99332479-7D0F-4E39-AC37-3FB8D4F3E6DC" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.ItemProperties.FriendshipBingo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.ffa4626d6f4f273dc6ad77801a0fa1cd24cfd153" automaticSigning="False" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.FriendshipBingo.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
 </Properties>

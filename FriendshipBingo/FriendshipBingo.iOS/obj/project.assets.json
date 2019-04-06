@@ -2,6 +2,26 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Square.SocketRocket/0.5.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS/Square.SocketRocket.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/Square.SocketRocket.dll": {}
+        }
+      },
+      "Websockets.Pcl/1.1.9": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/WebSockets.PCL.dll": {},
+          "lib/xamarinios10/Websockets.Ios.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/WebSockets.PCL.dll": {},
+          "lib/xamarinios10/Websockets.Ios.dll": {}
+        }
+      },
       "Xamarin.Forms/3.6.0.293080": {
         "type": "package",
         "compile": {
@@ -129,6 +149,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Websockets.Pcl": "1.1.9",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "compile": {
@@ -140,6 +161,26 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Square.SocketRocket/0.5.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS/Square.SocketRocket.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/Square.SocketRocket.dll": {}
+        }
+      },
+      "Websockets.Pcl/1.1.9": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/WebSockets.PCL.dll": {},
+          "lib/xamarinios10/Websockets.Ios.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/WebSockets.PCL.dll": {},
+          "lib/xamarinios10/Websockets.Ios.dll": {}
+        }
+      },
       "Xamarin.Forms/3.6.0.293080": {
         "type": "package",
         "compile": {
@@ -267,6 +308,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Websockets.Pcl": "1.1.9",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "compile": {
@@ -278,6 +320,26 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Square.SocketRocket/0.5.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS/Square.SocketRocket.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/Square.SocketRocket.dll": {}
+        }
+      },
+      "Websockets.Pcl/1.1.9": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/WebSockets.PCL.dll": {},
+          "lib/xamarinios10/Websockets.Ios.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/WebSockets.PCL.dll": {},
+          "lib/xamarinios10/Websockets.Ios.dll": {}
+        }
+      },
       "Xamarin.Forms/3.6.0.293080": {
         "type": "package",
         "compile": {
@@ -405,6 +467,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Websockets.Pcl": "1.1.9",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "compile": {
@@ -416,6 +479,26 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Square.SocketRocket/0.5.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS/Square.SocketRocket.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/Square.SocketRocket.dll": {}
+        }
+      },
+      "Websockets.Pcl/1.1.9": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/WebSockets.PCL.dll": {},
+          "lib/xamarinios10/Websockets.Ios.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/WebSockets.PCL.dll": {},
+          "lib/xamarinios10/Websockets.Ios.dll": {}
+        }
+      },
       "Xamarin.Forms/3.6.0.293080": {
         "type": "package",
         "compile": {
@@ -543,6 +626,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Websockets.Pcl": "1.1.9",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "compile": {
@@ -555,6 +639,42 @@
     }
   },
   "libraries": {
+    "Square.SocketRocket/0.5.1": {
+      "sha512": "dP3NbvRTg9MHiwcS9f/sRcpmAALKCVqj3SoahTRqvmHvWUtHfyi45jaOMm+9cTydKg3xpKYat9qLu/K80qNnKw==",
+      "type": "package",
+      "path": "square.socketrocket/0.5.1",
+      "files": [
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/Xamarin.Mac/Square.SocketRocket.OSX.dll",
+        "lib/Xamarin.iOS/Square.SocketRocket.dll",
+        "lib/Xamarin.tvOS/Square.SocketRocket.TVOS.dll",
+        "square.socketrocket.0.5.1.nupkg.sha512",
+        "square.socketrocket.nuspec"
+      ]
+    },
+    "Websockets.Pcl/1.1.9": {
+      "sha512": "XITV2o6NzPaXorsnmTaf0sxaAqP3MU3w3JXoiwsFM886rFyddw7MfKZ3wj01Ldbo/Ilq+O2CG8oaZghsIHWZWw==",
+      "type": "package",
+      "path": "websockets.pcl/1.1.9",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid/WebSockets.PCL.dll",
+        "lib/MonoAndroid/Websockets.Droid.dll",
+        "lib/net45/WebSockets.PCL.dll",
+        "lib/net45/Websockets.Net.dll",
+        "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10/WebSockets.PCL.dll",
+        "lib/uap10.0/WebSockets.PCL.dll",
+        "lib/uap10.0/Websockets.Universal.dll",
+        "lib/wp8/WebSockets.PCL.dll",
+        "lib/wp8/Websockets.WP8.dll",
+        "lib/xamarinios10/WebSockets.PCL.dll",
+        "lib/xamarinios10/Websockets.Ios.dll",
+        "websockets.pcl.1.1.9.nupkg.sha512",
+        "websockets.pcl.nuspec"
+      ]
+    },
     "Xamarin.Forms/3.6.0.293080": {
       "sha512": "o7GH+huLZMGlBxFCFAV5g+P3xoYoXFPeGrZ+AI8ezt2Gey/ZeZjSlf3nR3DzZKClVsCTvJS8Z5rVlC1dexSv+A==",
       "type": "package",
@@ -728,36 +848,38 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "FriendshipBingo >= 1.0.0",
+      "Square.SocketRocket >= 0.5.1",
+      "Websockets.Pcl >= 1.1.9",
       "Xamarin.Forms >= 3.6.0.293080"
     ]
   },
   "packageFolders": {
-    "/Users/ericnewcomer/.nuget/packages/": {}
+    "/Users/ethana56/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ericnewcomer/Desktop/FriendshipBingo/FriendshipBingo/FriendshipBingo.iOS/FriendshipBingo.iOS.csproj",
+      "projectUniqueName": "/Users/ethana56/Hack4Impact/FriendshipBingo/FriendshipBingo/FriendshipBingo.iOS/FriendshipBingo.iOS.csproj",
       "projectName": "FriendshipBingo.iOS",
-      "projectPath": "/Users/ericnewcomer/Desktop/FriendshipBingo/FriendshipBingo/FriendshipBingo.iOS/FriendshipBingo.iOS.csproj",
-      "packagesPath": "/Users/ericnewcomer/.nuget/packages/",
-      "outputPath": "/Users/ericnewcomer/Desktop/FriendshipBingo/FriendshipBingo/FriendshipBingo.iOS/obj/",
+      "projectPath": "/Users/ethana56/Hack4Impact/FriendshipBingo/FriendshipBingo/FriendshipBingo.iOS/FriendshipBingo.iOS.csproj",
+      "packagesPath": "/Users/ethana56/.nuget/packages/",
+      "outputPath": "/Users/ethana56/Hack4Impact/FriendshipBingo/FriendshipBingo/FriendshipBingo.iOS/obj",
       "projectStyle": "PackageReference",
-      "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/ericnewcomer/.config/NuGet/NuGet.Config"
+        "/Users/ethana56/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
+        "/Users/ethana56/Websockets.PCL": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/ericnewcomer/Desktop/FriendshipBingo/FriendshipBingo/FriendshipBingo/FriendshipBingo.csproj": {
-              "projectPath": "/Users/ericnewcomer/Desktop/FriendshipBingo/FriendshipBingo/FriendshipBingo/FriendshipBingo.csproj"
+            "/Users/ethana56/Hack4Impact/FriendshipBingo/FriendshipBingo/FriendshipBingo/FriendshipBingo.csproj": {
+              "projectPath": "/Users/ethana56/Hack4Impact/FriendshipBingo/FriendshipBingo/FriendshipBingo/FriendshipBingo.csproj"
             }
           }
         }
@@ -768,7 +890,15 @@
         "dependencies": {
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.6.0.293080, )"
+            "version": "3.6.0.293080"
+          },
+          "Websockets.Pcl": {
+            "target": "Package",
+            "version": "1.1.9"
+          },
+          "Square.SocketRocket": {
+            "target": "Package",
+            "version": "0.5.1"
           }
         }
       }
