@@ -7,17 +7,19 @@ namespace FriendshipBingo
 {
     public partial class Board : ContentPage
     {
+        Game game;
         public Board(Game game)
         {
-            Random rand = new Random();
-            foreach (KeyValuePair<string, string> entry in game.FactDict)
-            {
-                int tileNum = rand.Next(26);
-                string n = "control";
-                string tile = String.Concat(n, tileNum.ToString());            
-
-            }
             InitializeComponent();
+            this.game = game;
+            //Random rand = new Random();
+            //foreach (KeyValuePair<string, string> entry in game.FactDict)
+            //{
+            //    int tileNum = rand.Next(26);
+            //    string n = "control";
+            //    string tile = String.Concat(n, tileNum.ToString());
+            //    control1.BackgroundColor = Color.Blue;
+            //}
         }
 
         void Handle_Clicked(object sender, System.EventArgs e)
@@ -31,7 +33,7 @@ namespace FriendshipBingo
             //{
             //    b.BackgroundColor = Color.Green;
             //}
-            Navigation.PushAsync(new QuestionPage());
+            Navigation.PushAsync(new QuestionPage(this.game));
         }
 
         // ** hide navigation **
